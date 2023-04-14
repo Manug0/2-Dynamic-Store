@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <title>Tienda de Portátiles</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda de Portátiles</h1>
+    </header>
+    <main class="container">
+      <section class="filters">
+        <label for="seller-select">Vendedor:</label>
+        <select id="seller-select">
+          <option value="">Todos</option>
+        </select>
+        <label for="price-input">Precio máximo:</label>
+        <input type="number" id="price-input" min="0" step="1" />
+        <button id="search-button">Buscar</button>
+        <button id="clear-filters-button">Limpiar filtros</button>
+      </section>
+      <section class="products"></section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p class="copy">
+          &copy; 2023 Tienda de Portátiles. Todos los derechos reservados.
+        </p>
+        <div class="foot-socials">
+          <ul>
+            <li>
+              <a href="https://facebook.com"
+                ><span class="iconify" data-icon="ic:baseline-facebook"></span
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"
+                ><span class="iconify" data-icon="mdi:twitter"></span
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com"
+                ><span class="iconify" data-icon="mdi:instagram"></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

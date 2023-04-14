@@ -1,0 +1,141 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+    color: #ffffff;
+}
+
+header {
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+  
+.filters {
+    position: fixed;
+    width: 15%;
+    min-width: 250px;
+    margin-right: 20px;
+    padding: 20px;
+}
+  
+.products {
+    margin-left: 20%;
+    margin-bottom: 50px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.product-card {
+    width: 27%;
+    min-width: 250px;
+    background-color: #393e46;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+  
+.product-card:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+  
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+  
+button {
+    background-color: #00adb5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #00818a;
+}
+  
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #393e46;
+    color: #ffffff;
+}
+  
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #393e46;
+    color: #ffffff;
+}
+  
+option {
+    background-color: #393e46;
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #222831;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+  
+.copy {
+    color: #fff;
+    margin-left: 20%;
+}
+  
+.foot-socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+  
+.foot-socials ul {
+    display: flex;
+    list-style: none;
+}
+  
+.foot-socials li {
+    padding: 5px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+  
+.iconify {
+    color: #ffffff;
+}
+    
