@@ -17,7 +17,6 @@ header {
 }
   
 .filters {
-    position: fixed;
     width: 15%;
     min-width: 250px;
     margin-right: 20px;
@@ -98,7 +97,6 @@ option {
 }
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -139,3 +137,11 @@ footer {
     color: #ffffff;
 }
     
+@media (min-width: 375px) and (max-width: 767px) {
+    .filters {
+        position: static;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
